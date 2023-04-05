@@ -1,20 +1,20 @@
 mod api;
 
 use api::task::{
-    get_task
+    get_task        // used to query state of task
 };
 
 use actix_web::{HttpServer, App, web::Data, middleware::Logger};
 
 
-#[actix_web:main]
+#[actix_web:main]   // macro lets the framework know to start running here
 adync fn main() -> std::io::Result<()> {
     std::env::set_var("RUST_LOG", "debug");
     std::env::set_var("RUST_BACKTRACE", "1");
     env_logger::init();
 
     let config = aws_config::load_from_env().await;
-    HttpServer::new(move || {          // closure runs every time actix web spins up new thread
+    HttpServer::new(move || {          // closure runs every time actix_web spins up new thread
         let ddb_repo: DDBRepository = DDBRepository::init(
             String::from("task"),
             config.clone()
