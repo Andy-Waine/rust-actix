@@ -1,20 +1,26 @@
 mod api;
+mod model;
+mod repository;
 
 use api::task::{
-    get_task        // used to query state of task
+    get_task,
+    submit_task,
+    start_task,
+    complete_task,
+    pause_task,
+    fail_task,
 };
-
+use repository::ddb::DDBRepository;
 use actix_web::{HttpServer, App, web::Data, middleware::Logger};
 
-
-#[actix_web:main]   // macro lets the framework know to start running here
-adync fn main() -> std::io::Result<()> {
+#[actix_web::main]
+async fn main() -> std::io::Result<()> {
     std::env::set_var("RUST_LOG", "debug");
     std::env::set_var("RUST_BACKTRACE", "1");
     env_logger::init();
 
     let config = aws_config::load_from_env().await;
-    HttpServer::new(move || {          // closure runs every time actix_web spins up new thread
+    HttpServer::new(move || {
         let ddb_repo: DDBRepository = DDBRepository::init(
             String::from("task"),
             config.clone()

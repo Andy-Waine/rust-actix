@@ -6,6 +6,7 @@ use log::error;
 use std::str::FromStr;
 use std::collections::HashMap;
 
+// interface between api and dynamodb
 pub struct DDBRepository {
     client: Client,
     table_name: String
