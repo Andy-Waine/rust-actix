@@ -1,0 +1,12 @@
+/mnt/c/Users/424/Desktop/projects/ActixWebTaskService/target/debug/deps/libasync_trait-23b921a53ee5e234.so: /home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/lib.rs /home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/args.rs /home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/bound.rs /home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/expand.rs /home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/lifetime.rs /home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/parse.rs /home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/receiver.rs /home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/verbatim.rs
+
+/mnt/c/Users/424/Desktop/projects/ActixWebTaskService/target/debug/deps/async_trait-23b921a53ee5e234.d: /home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/lib.rs /home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/args.rs /home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/bound.rs /home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/expand.rs /home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/lifetime.rs /home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/parse.rs /home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/receiver.rs /home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/verbatim.rs
+
+/home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/lib.rs:
+/home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/args.rs:
+/home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/bound.rs:
+/home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/expand.rs:
+/home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/lifetime.rs:
+/home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/parse.rs:
+/home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/receiver.rs:
+/home/andy-waine/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/verbatim.rs:
